@@ -1,0 +1,106 @@
+div, h2, dl, dt, dd, button {
+    margin: 0;
+    padding: 0;
+}
+#cal-set-ctn {
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #FFF;
+    overflow: hidden;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+#cal-set-ctn h2 {
+    padding: 20px 0;
+    font-weight: 700;
+}
+.cal-date {
+    margin: 0 50px;
+}
+.cal-prev, .cal-next, #cal-set dd {
+    cursor: pointer;
+}
+.cal-setting {
+    padding: 20px 0;
+    background-color: #EEE;
+}
+#cal-month-price {
+    width: 50px;
+    margin: 0 5px;
+}
+#cal-set {
+    width: 490px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+#cal-set dt, #cal-set dd {
+    box-sizing: border-box;
+}
+#cal-set dt {
+    float: left;
+    width: 70px;
+    padding: 5px;
+    color: #999;
+    background-color: #EEE;
+}
+#cal-set dd {
+    float: left;
+    position: relative;
+    width: 70px;
+    height: 50px;
+    border: 1px solid #EEE;
+}
+.cal-day, .cal-special, .cal-price, .cal-price-input {
+    position: absolute;
+}
+.cal-day {
+    top: 2px;
+    left: 2px;
+    font-size: 14px;
+    color: #999;
+}
+.cal-special {
+    top: 2px;
+    right: 2px;
+    font-size: 12px;
+    color: #F00;
+}
+.cal-price {
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #666;
+    font-weight: 700;
+}
+.cal-price-input {
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    margin: 0;
+    color: #666;
+    width: calc(100% - 7px);
+}
+.cal-buttons {
+    margin: 30px 0 20px;
+}
+.cal-cancel, .cal-save {
+    width: 120px;
+    height: 40px;
+    background: #FFF;
+    cursor: pointer;
+}
+.cal-cancel {
+    color: #009dd9;
+    border: 1px solid #009dd9;
+}
+.cal-save {
+    color: #FFF;
+    border: 1px solid #009dd9;
+    background-color: #009dd9;
+}
+
+
+
+
